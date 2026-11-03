@@ -12,7 +12,7 @@ soc-l2-iagen-proyecto-final/
 
 │
 
-├── README.md → Índice principal (Este doc)
+├── [README.md](./readme.md) → Índice principal (Este doc)
 
 ├── [index.html](./index.html) → Aplicación web 
 
@@ -95,14 +95,16 @@ soc-l2-iagen-proyecto-final/
 ---
 ## Stack
 
+<div align="center">
+ 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript) [![SheetJS](https://img.shields.io/badge/SheetJS-01723a?style=for-the-badge)](https://sheetjs.com/) [![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/) [![jsPDF](https://img.shields.io/badge/jsPDF-D82928?style=for-the-badge)](https://parall.ax/products/jspdf) [![jsPDF-AutoTable](https://img.shields.io/badge/jsPDF_AutoTable-B30B00?style=for-the-badge)](https://github.com/simonbengtsson/jsPDF-AutoTable) [![Google Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
+</div>
 
 ---
 
 ## Autor
 
-Alex Vicente Alcivar Moya
-IT Engineer 
+Alex Vicente Alcivar Moya - IT Engineer 
 
 ---
 
@@ -113,6 +115,13 @@ IT Engineer
 ---
 
 >  *Escenario sintético de práctica; los datos del dataset son ficticios (IPs de documentación RFC 5737 / RFC 2606). Material educativo.*
-> 
+>
+<div align="center">
+<a href="https://github.com/alexalcivarm7/soc-l2-iagen-proyecto-final">
+  <img src="https://komarev.com/ghpvc/?username=alexalcivarm7-soc-l2&label=REPO+VIEWS&color=1F6FEB&style=for-the-badge" alt="Repo Views"/>
+</a>
+</div>
+
 ---
+
 
