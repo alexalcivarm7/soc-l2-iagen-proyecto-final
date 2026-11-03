@@ -1,8 +1,26 @@
 # Local SOC - Analista N2 con IA
 
-Aplicación web de análisis de incidentes de ciberseguridad **100 % con IA generativa**, desarrollada como **proyecto final del Bootcamp Analista SOC Nivel 2** (Fundación Comunidad Dojo / Busec Panamá). Simula el flujo de trabajo de un analista SOC de nivel 2 de una consultora: importar el export del SIEM, entregar el dataset al agente de IA (Gemini de Google), revisar los incidentes detectados y clasificados y emitir el informe formal en PDF.
+Plataforma SOC L2 asistida por IA generativa para el análisis, correlación y generación de informes de incidentes de ciberseguridad, desarrollada como **proyecto final del Bootcamp Analista SOC Nivel 2** (Fundación Comunidad Dojo / Busec Panamá). Simula el flujo de trabajo de un analista SOC de nivel 2 de una consultora: importar el export del SIEM, entregar el dataset al agente de IA (Gemini de Google), revisar los incidentes detectados y clasificados y emitir el informe formal en PDF.
 
 > **El análisis completo lo ejecuta el agente de IA generativa** (Gemini de Google): detección de incidentes, agrupación, clasificación (crítico / alto / medio / bajo), mapeo MITRE ATT&CK, evidencia y redacción de todos los textos del informe. La aplicación normaliza los datos, valida la respuesta estructurada del agente y compone el PDF — no aplica reglas de detección locales ni plantillas.
+
+---
+
+## Estructura del repositorio
+
+soc-l2-iagen-proyecto-final/
+
+│
+
+├── README.md → Índice principal (Este doc)
+
+├── [index.html](./index.html) → Aplicación web 
+
+├── [Arquitectura_3_capas_IA.png](./Arquitectura_3_capas_IA.png) → Arquitectura de app web
+
+├── [SOC_L2_Logs_Ampliados_Multiples_Incidentes.xlsx](./SOC_L2_Logs_Ampliados_Multiples_Incidentes.xlsx) → Dataset del cliente
+
+└── Informe_Incidente_SOC2_AAAAMMDD.pdf               → Informe generado
 
 ---
 
@@ -75,21 +93,6 @@ Aplicación web de análisis de incidentes de ciberseguridad **100 % con IA gene
 - La app no envía nada a ningún otro servicio; no hay telemetría ni backend.
 
 ---
-
-## Estructura del repositorio
-
-```
-soc-l2-iagen-proyecto-final/
-│
-├── README.md                                         → Índice principal (Este doc)
-├── index.html                                        → Aplicación web 
-├── Arquitectura_3_capas_IA.png                       → Arquitectura de app web
-├── SOC_L2_Logs_Ampliados_Multiples_Incidentes.xlsx   → Dataset del cliente
-└── Informe_Incidente_SOC2_AAAAMMDD.pdf               → Informe generado
-
-```
-
----
 ## Stack
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript) [![SheetJS](https://img.shields.io/badge/SheetJS-01723a?style=for-the-badge)](https://sheetjs.com/) [![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/) [![jsPDF](https://img.shields.io/badge/jsPDF-D82928?style=for-the-badge)](https://parall.ax/products/jspdf) [![jsPDF-AutoTable](https://img.shields.io/badge/jsPDF_AutoTable-B30B00?style=for-the-badge)](https://github.com/simonbengtsson/jsPDF-AutoTable) [![Google Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
@@ -110,5 +113,6 @@ IT Engineer
 ---
 
 >  *Escenario sintético de práctica; los datos del dataset son ficticios (IPs de documentación RFC 5737 / RFC 2606). Material educativo.*
+> 
 ---
 
