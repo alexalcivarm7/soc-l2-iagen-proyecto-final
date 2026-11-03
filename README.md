@@ -4,6 +4,8 @@ Plataforma SOC L2 asistida por IA generativa para el análisis, correlación y g
 
 > **El análisis completo lo ejecuta el agente de IA generativa** (Gemini de Google): detección de incidentes, agrupación, clasificación (crítico / alto / medio / bajo), mapeo MITRE ATT&CK, evidencia y redacción de todos los textos del informe. La aplicación normaliza los datos, valida la respuesta estructurada del agente y compone el PDF — no aplica reglas de detección locales ni plantillas.
 
+**Link de aplicacion web:** https://alexalcivarm7.github.io/soc-l2-iagen-proyecto-final/
+
 ---
 
 ## Estructura del repositorio
