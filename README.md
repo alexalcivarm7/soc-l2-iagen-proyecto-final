@@ -14,6 +14,8 @@ soc-l2-iagen-proyecto-final/
 
 ├── [README.md](./readme.md) → Índice principal (Este doc)
 
+├── [LICENSE](./LICENSE) → Licencia
+
 ├── [index.html](./index.html) → Aplicación web 
 
 ├── [Arquitectura_3_capas_IA.png](./Arquitectura_3_capas_IA.png) → Arquitectura de app web
@@ -102,12 +104,6 @@ soc-l2-iagen-proyecto-final/
 
 ---
 
-## Autor
-
-Alex Vicente Alcivar Moya - IT Engineer 
-
----
-
 ## Redes Sociales
 
 [![LinkedIn](https://img.shields.io/badge/Linkedin-000000?style=for-the-badge&logo=linkedin&logoColor=00ff41)](https://www.linkedin.com/in/alexalcivarm7) [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/alexalcivarm7) [![TryHackMe](https://img.shields.io/badge/Tryhackme-000000?style=for-the-badge&logo=tryhackme&logoColor=00ff41)](https://tryhackme.com/p/alexalcivarm7)
@@ -116,12 +112,22 @@ Alex Vicente Alcivar Moya - IT Engineer
 
 >  *Escenario sintético de práctica; los datos del dataset son ficticios (IPs de documentación RFC 5737 / RFC 2606). Material educativo.*
 >
+
+---
+
+
+## Licencia
+
+© 2026 Alex Vicente Alcivar Moya. Todos los derechos reservados.
+
+Este proyecto se publica únicamente con fines demostrativos y de portafolio profesional.
+
+No se autoriza la copia, redistribución, modificación, comercialización o reutilización total o parcial del código fuente, documentación o diseños sin autorización expresa y por escrito del autor.
+
+---
+
 <div align="center">
 <a href="https://github.com/alexalcivarm7/soc-l2-iagen-proyecto-final">
   <img src="https://komarev.com/ghpvc/?username=alexalcivarm7-soc-l2&label=REPO+VIEWS&color=1F6FEB&style=for-the-badge" alt="Repo Views"/>
 </a>
 </div>
-
----
-
-
