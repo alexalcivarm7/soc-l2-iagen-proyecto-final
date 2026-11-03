@@ -20,7 +20,7 @@ soc-l2-iagen-proyecto-final/
 
 ├── [SOC_L2_Logs_Ampliados_Multiples_Incidentes.xlsx](./SOC_L2_Logs_Ampliados_Multiples_Incidentes.xlsx) → Dataset del cliente
 
-└── Informe_Incidente_SOC2_AAAAMMDD.pdf               → Informe generado
+└── [Informe_Incidente_SOC2_AAAAMMDD.pdf](./Informe_Incidente_SOC2_20261103.pdf)               → Informe generado
 
 ---
 
