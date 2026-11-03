@@ -1,6 +1,6 @@
 # Local SOC - Analista N2 con IA
 
-Plataforma SOC L2 asistida por IA generativa para el análisis, correlación y generación de informes de incidentes de ciberseguridad, desarrollada como **proyecto final del Bootcamp Analista SOC Nivel 2** (Fundación Comunidad Dojo / Busec Panamá). Simula el flujo de trabajo de un analista SOC de nivel 2 de una consultora: importar el export del SIEM, entregar el dataset al agente de IA (Gemini de Google), revisar los incidentes detectados y clasificados y emitir el informe formal en PDF.
+Plataforma SOC L2 asistida por IA generativa para el análisis, correlación y generación de informes de incidentes de ciberseguridad, desarrollada como **proyecto final del Bootcamp Analista SOC Nivel 2** (Fundación Comunidad Dojo / WoSec Panamá). Simula el flujo de trabajo de un analista SOC de nivel 2 de una consultora: importar el export del SIEM, entregar el dataset al agente de IA (Gemini de Google), revisar los incidentes detectados y clasificados y emitir el informe formal en PDF.
 
 > **El análisis completo lo ejecuta el agente de IA generativa** (Gemini de Google): detección de incidentes, agrupación, clasificación (crítico / alto / medio / bajo), mapeo MITRE ATT&CK, evidencia y redacción de todos los textos del informe. La aplicación normaliza los datos, valida la respuesta estructurada del agente y compone el PDF — no aplica reglas de detección locales ni plantillas.
 
